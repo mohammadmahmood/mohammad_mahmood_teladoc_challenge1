@@ -1,0 +1,10 @@
+FROM maven:3.6.0-jdk-8-alpine
+
+# copying src from framework
+COPY src /home/Assessment/src
+
+# copying pom.xml from framework
+COPY pom.xml /home/Assessment
+
+# Running the test cases
+RUN mvn -f /home/Assessment/pom.xml clean test -DskipTests=true

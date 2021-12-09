@@ -1,0 +1,398 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6665083300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on Protractor Practice website home page",
+            "match": {
+              "location": "stepDef.StepDef.i_am_on_protractor_practice_website_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T04:24:42.613Z",
+        "before": [
+          {
+            "result": {
+              "duration": 474995800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.openBrowser()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Add a user and validate the user has been added to the table",
+        "description": "",
+        "id": "to-do-list;add-a-user-and-validate-the-user-has-been-added-to-the-table",
+        "after": [
+          {
+            "result": {
+              "duration": 1208286600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 85003600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on \"Add User\" Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Add User\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDef.StepDef.i_click_on_button(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42558421600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter \"First Name\" as \"TestFirst\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"First Name\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"TestFirst\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDef.StepDef.i_enter_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5901697900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter \"Last Name\" as \"TestLast\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Last Name\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"TestLast\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDef.StepDef.i_enter_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80579100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter \"User Name\" as \"TestUser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User Name\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"TestUser\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDef.StepDef.i_enter_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95999100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter \"Password\" as \"Test1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Test1234\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDef.StepDef.i_enter_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110001400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select \"company AAA\" radio button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"company AAA\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDef.StepDef.i_select(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 171002400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select role as \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDef.StepDef.i_select_role_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "I enter  \"email\" as \"Strange.test@testmail.com\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001400,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "I enter \"Cell Phone\" as \"9876543210\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cell Phone\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"9876543210\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDef.StepDef.i_enter_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997800,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I click on \"Save\" Button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Save\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDef.StepDef.i_click_on_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I should see user with \"Strange.test@testmail.com\" email is added to the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Strange.test@testmail.com\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDef.StepDef.i_should_be_able_to_see_the_new_user_added_to_the_list(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ProtractorPractice"
+          },
+          {
+            "name": "@AddUser"
+          },
+          {
+            "name": "@TC_001"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6033745700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on Protractor Practice website home page",
+            "match": {
+              "location": "stepDef.StepDef.i_am_on_protractor_practice_website_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-09T04:25:40.013Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.openBrowser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Delete user User Name: novak and validate user has been delete",
+        "description": "",
+        "id": "to-do-list;delete-user-user-name:-novak-and-validate-user-has-been-delete",
+        "after": [
+          {
+            "result": {
+              "duration": 1248895200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 68999400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I delete user with name \"novak\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"novak\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDef.StepDef.i_delete_user_with_name(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56999500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click ok on confirmation pup up",
+            "match": {
+              "location": "stepDef.StepDef.i_click_ok_on_confirmation_pup_up()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5029908100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I do not see \"novak\" in the user list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"novak\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDef.StepDef.i_do_not_see_in_the_user_list(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ProtractorPractice"
+          },
+          {
+            "name": "@TC_002"
+          },
+          {
+            "name": "@DeleteUser"
+          }
+        ]
+      }
+    ],
+    "name": "To do list",
+    "description": "",
+    "id": "to-do-list",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/todo/Tests.feature",
+    "tags": []
+  }
+]
