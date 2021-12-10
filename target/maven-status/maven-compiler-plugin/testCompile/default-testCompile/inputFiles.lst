@@ -1,7 +1,6 @@
-C:\Users\Vikas\Desktop\Gelato_Assessment\gelato_assessment\src\test\java\stepDef\API_Steps.java
-C:\Users\Vikas\Desktop\Gelato_Assessment\gelato_assessment\src\test\java\stepDef\Hook.java
-C:\Users\Vikas\Desktop\Gelato_Assessment\gelato_assessment\src\test\java\TestRunner.java
-C:\Users\Vikas\Desktop\Gelato_Assessment\gelato_assessment\src\test\java\base\Setup.java
-C:\Users\Vikas\Desktop\Gelato_Assessment\gelato_assessment\src\test\java\base\GlobalTestData.java
-C:\Users\Vikas\Desktop\Gelato_Assessment\gelato_assessment\src\test\java\pageObject\ToDo_HomePage.java
-C:\Users\Vikas\Desktop\Gelato_Assessment\gelato_assessment\src\test\java\stepDef\ToDo_Steps.java
+/Users/anisulmahmood/Documents/workspace/mohammad_mahmood_teladoc_challenge1/src/test/java/pageObject/HomePage.java
+/Users/anisulmahmood/Documents/workspace/mohammad_mahmood_teladoc_challenge1/src/test/java/TestRunner.java
+/Users/anisulmahmood/Documents/workspace/mohammad_mahmood_teladoc_challenge1/src/test/java/stepDef/StepDef.java
+/Users/anisulmahmood/Documents/workspace/mohammad_mahmood_teladoc_challenge1/src/test/java/stepDef/Hook.java
+/Users/anisulmahmood/Documents/workspace/mohammad_mahmood_teladoc_challenge1/src/test/java/base/GlobalTestData.java
+/Users/anisulmahmood/Documents/workspace/mohammad_mahmood_teladoc_challenge1/src/test/java/base/Setup.java

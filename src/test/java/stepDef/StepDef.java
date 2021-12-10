@@ -24,6 +24,7 @@ public class StepDef extends Setup {
 		}
 
 	@When("I enter {string} as {string}")
+
 	public void i_enter_as(String value, String textbox) {
 		HOME.enterText(textbox, value);
 	}

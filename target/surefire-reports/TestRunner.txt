@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestRunner
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 73.006 s - in TestRunner
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 25.588 s <<< FAILURE! - in TestRunner
+TestRunner.runScenario["Add a user and validate the user has been added to the table", "Optional[To do list]"](1)  Time elapsed: 11.974 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I enter  "email" as "Strange.test@testmail.com"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I enter  {string} as {string}")
+public void i_enter_as(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
