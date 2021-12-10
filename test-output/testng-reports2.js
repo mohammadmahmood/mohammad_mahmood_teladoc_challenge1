@@ -74,4 +74,4 @@ window.onload=function (){
  }
 
  //This is the file where we handle the switching of the Themes.
- /*Author:- Akhil Gullapalli*/
+ /*Author:- Mohammad Mahmood*/
