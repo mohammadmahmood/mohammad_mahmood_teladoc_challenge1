@@ -109,7 +109,7 @@
 							<goal>generate</goal>
 						</goals>
 						<configuration>
-							<projectName>gelato_assessment</projectName>
+							<projectName>teladoc_assessment</projectName>
 							<outputDirectory>${project.build.directory}/cucumber-report-html</outputDirectory>
 						</configuration>
 					</execution>
